@@ -31,26 +31,5 @@ This project is part of **CCS4340 – Machine Learning** Lab Sheet 06. The aim i
 
 ---
 
-## 🗂 Dataset
 
-- **Filename**: `email_spam_dataset.csv`
-- **Features**:
-  - `email_length`
-  - `num_links`
-  - `num_attachments`
-  - `num_exclamations`
-- **Target**: `is_spam` (0: Not Spam, 1: Spam)
-
----
-
-## 🧪 Lab Activities
-
-### ✅ Step 1: Load Required Libraries
-```python
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn.model_selection import train_test_split
-from sklearn.svm import SVC
 from sklearn.metrics import classification_report, confusion_matrix
